@@ -1,0 +1,513 @@
+*{
+    padding: 0px; margin: 0px;
+}
+#main{
+    background-image: linear-gradient(rgba(0,0,0,.6),rgba(0,0,0,.6 )) ,url(../images/drew-coffman-1872.jpg) ;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+    background-position: center;
+}
+.main-text{
+    width: 50%;
+    margin: auto;
+    text-align: center;
+    padding-top: 15%; ;
+    font-family: 'Alegreya', serif;
+    color: #FFFFFF;
+}
+.welcom-page{
+    font-family: 'Alegreya Sans', sans-serif;
+    font-size: 22px;
+    line-height:40.92px;
+    letter-spacing:normal;
+}
+.title{
+    font-family: 'Alegreya', serif;
+    font-weight:400 ;
+    font-size:76px;
+    line-height:91.2px;
+}
+.prgraph-main{
+    font-family:  'Alegreya Sans', sans-serif;
+    font-size: 24px;
+    line-height: 44.64px;
+    font-weight:500;
+    margin:10px 0px 20px;
+    font-family: 'Alegreya Sans', sans-serif;
+}
+.btns{
+    font-family: 'Alegreya Sans', sans-serif;
+    margin: 30px 0px 0px;
+    font-weight:500;
+    text-align: center;
+    line-height:31.62px;
+    font-size:17px;
+}
+.btn1 ,.btn2{
+    font-size:16px;
+    font-weight: 700;
+    padding: 18px 28px;
+    border-radius: 3px;
+    border:none;
+    line-height:22.1px;
+    text-decoration:none solid rgb(51, 51, 51);
+    color: #fff;
+    
+}
+.btn1{
+    margin-right: 8px;
+    background-color: #8e7754;
+}
+.btn1:hover{
+    background-color:#ffffff ;
+    color: black;
+   transition-duration: .5s;
+}
+.btn2{
+    border: 2px solid #fff;
+    font-size:16px;
+    font-weight: 700;
+
+}
+.btn2:hover{
+  background-color: #FFFFFF;
+  color: black;
+  transition-duration: .5s;
+}
+/* about section */
+#about{
+  
+}
+.about-img{
+    width: 45%;
+    margin: 80px 60px;
+    display: inline-block;
+   
+}
+.about-img img{
+   width: 95%;
+   
+}
+
+.about-text{
+    width: 45%;
+    display: inline-block;
+    line-height: 31.62px;
+   vertical-align:50px;
+  
+}
+.about-text h2{
+    font-family: 'Alegreya', serif;
+    font-size: 32px;
+    line-height: 44.16px;
+    font-weight: 400;
+    margin-bottom: 20px;
+}
+.answare{
+    font-size: 16px;
+    font-family: 'Alegreya Sans', sans-serif;
+    line-height:31.62px ;
+    font-weight: 400;
+    width: 90%;
+    margin-bottom: 30px;
+}
+.icons img{
+    width: 6%;
+    border: solid 1px rgb(172, 165, 165);
+    border-radius: 50%;
+    margin-right: 15px;
+    margin-bottom: 15px;
+    
+}
+.icons p{
+    display: inline-block;
+    vertical-align:30px;
+    font-family: 'Alegreya Sans', sans-serif;
+    font-size: 17px;
+    font-weight: 400;
+    line-height: 31.62px;
+}
+/* about2 */
+#about-2{
+    margin-top: 60px;
+    background-color: rgb(245, 237, 237);
+}
+
+.about-text2{
+    width: 45%;
+    margin: 80px 60px;
+    display: inline-block;
+    vertical-align: 100px;
+}
+.about-text2 h2{
+    font-family: 'Alegreya', serif;
+    font-size: 32px;
+    line-height: 44.16px;
+    font-weight: 400;
+    margin-bottom: 20px;
+    
+}
+
+.about-img2{
+    width: 45%;
+    display: inline-block;
+    padding-top: 60px;
+    
+   
+}
+.about-img2 img{
+   width: 90%;
+   display: inline-block;
+   
+}
+
+/* banking */
+#our-banking{
+    width: 90%;
+    margin: auto;
+}
+.banking-text{
+    text-align: center;
+    margin:80px 0px 60px;
+}
+.banking-text h2{
+    font-family: 'Alegreya', serif;
+    line-height:41.4px;
+    font-weight: 400;
+    font-size: 30px;
+
+}
+.banking-text p{
+    font-family: 'Alegreya Sans', sans-serif;
+    line-height: 31.62px;
+    font-weight: 400;
+    font-size: 17px;
+}
+
+.banking-1{
+    width: 31%;
+    display: inline-block;
+    margin-right: 25px;
+    vertical-align:baseline;
+    text-align: center;
+}
+.banking-1 h3{
+    font-family: 'Alegreya', serif;
+    line-height: 30.36px;
+    margin: 20px 0px;
+    font-size: 22px;
+    font-weight: 400;
+    
+}
+.banking-1 p{
+    font-family: 'Alegreya Sans', sans-serif;
+    line-height:31.62px;
+    margin: 20px 0px;
+    font-size: 17px;
+    font-weight: 400;
+    
+}
+.banking-1 img{
+    width: 100%;
+}
+
+/* location */
+
+/* #location{
+   
+   padding: 30px;
+   background-color: aqua;
+   
+}
+
+.location-text{
+    width: 42%;
+    float: left;
+    height: auto;
+    margin: 50px 0px 50px 50px;
+}
+.location-loc{
+    width: 42%;
+    float: right;
+    height: auto;
+}
+
+.location-text h2{
+    font-size: 32px;
+    font-family: 'Alegreya', serif;
+    line-height: 44.16px;
+    font-weight:400 ;
+    margin-bottom: 30px;
+}
+.location-text p{
+    font-size: 17px;
+    font-family: 'Alegreya Sans', sans-serif;
+    line-height: 31.62px;
+    font-weight:400 ;
+    margin-bottom: 30px;
+}
+.content-text{
+    font-size: 17px;
+    font-family: 'Alegreya Sans', sans-serif;
+    font-weight:400 ;
+
+}     */
+
+/* location */
+#location{
+    background-color: #f8f8f8;
+    height: auto;
+    margin-top: 60px;
+    
+}
+
+.location-text{
+    width:40%;
+    display: inline-block;
+    margin: 80px 60px;
+   
+   
+}
+.map{
+    width: 40%;
+    display: inline-block;
+    margin: 80px 60px;
+    padding-bottom: 55px;
+    
+}
+
+.location-text h2{
+    font-size: 32px;
+    font-family: 'Alegreya', serif;
+    line-height: 44.16px;
+    font-weight:400 ;
+    margin-bottom: 30px;
+    clear: both;
+
+}
+.location-text p{
+    font-size: 17px;
+    font-family: 'Alegreya Sans', sans-serif;
+    line-height: 31.62px;
+    font-weight:400 ;
+    margin-bottom: 30px;
+
+}
+.location-text span{
+    font-size: 17px;
+    font-family: 'Alegreya Sans', sans-serif;
+    line-height: 31.62px;
+    font-weight:400 ;
+    margin-bottom: 30px;
+}
+.location-text .text-icon{
+    font-size: 17px;
+    font-family: 'Alegreya Sans', sans-serif;
+    font-weight:400 ;
+    display: inline-block;
+    vertical-align: 15px;
+    
+    
+
+
+}
+.location-icon {
+    margin-top: 30px;
+}
+.location-icon img{
+    border: 0px solid black;
+    border-radius: 50%;
+    background-color: #8e7754;
+    line-height: 31.62px ;
+    margin-right: 20px;
+    padding: 2px;
+
+
+    width: 6%;
+}
+.map iframe{
+    width: 90%;
+}
+
+
+/*foot*/
+#foot-page{
+    background-color:#252422 ;
+
+}
+.foot-text{
+    width: 20%;
+    margin-left: 50px;
+    display: inline-block;
+    text-align: center;
+    padding-top: 60px;
+    padding-bottom: 30px;
+
+
+}
+.foot-text h3{
+    font-size: 18px;
+    line-height:24.84px;
+    font-weight: 400;
+    font-family: 'Alegreya', serif;
+    color: #FFFFFF;
+    text-align: left;
+    padding-bottom: 30px;
+}
+.foot-text p{
+    font-size: 16px;
+    font-weight: 400;
+    font-family: 'Alegreya Sans', sans-serif;
+    color: #969696;
+}
+.foot-text img{
+    width: 6%;
+    display: inline-block;
+}
+
+.foot1{
+    text-align: left;
+}
+
+.foot2{
+    text-align: left;
+    line-height: 31.62px;
+    vertical-align:-50px;
+
+}
+hr{
+    color: #969696;
+    border: 1px solid;
+    opacity: .1;
+}
+.sign-text{
+    display: inline-block;
+    padding-bottom: 0px;
+    padding: 3px;    
+}
+.foot-vertical{
+    vertical-align: -90px;
+}
+.ideat{
+    vertical-align: -80px;
+    background-image:url(../images/contact-details-map.png);
+    background-repeat: no-repeat;
+    background-position: 60% 80%;
+    
+    
+}
+
+.ideat img{
+    display: inline-block;
+    width: 13%;
+}
+.ideat p{
+    display: inline-block;
+    width: 82%;
+    vertical-align: 10px;
+}
+
+
+/* logo */
+#logo{
+    background-color: #403d38;
+    padding-bottom:60px ;
+    
+}
+.logo-photo{
+    width: 50%;
+    margin: auto;
+    text-align: center;
+    padding-top: 60px;
+    padding-bottom: 20px;
+}
+.logo-photo p{
+    color: #777777;
+    font-size: 15px;
+    font-weight: 400;
+    margin: 5px 0px 0px;
+
+}
+.logo-icons{
+    
+    width: 50%;
+    margin: auto;
+    text-align: center;
+    padding-right: 5px;
+    
+}
+.logo-icons ul{
+    list-style: none;
+    display: inline-block;
+    width: 50%;
+    margin: auto;
+
+    
+
+    
+}
+ul li{
+    text-decoration: none;
+    display: inline-block;
+}
+.logo-icons i{
+    font-size: 25px;
+    color: #f8f8f8;  
+    padding-right: 10px;
+
+}
+.logo-icons i{
+    font-size:35px;
+    color: #f8f8f8;  
+    padding-right: 10px;
+}
+.fa-facebook:hover{
+    color:#3b5998;
+    transition-duration: .25s;
+}
+.fa-twitter:hover{
+    color:#00aced;
+    transition-duration: .25s;
+}
+.fa-google:hover{
+    color:#dc4b39;
+    transition-duration: .25s;
+}
+.fa-instagram:hover{
+    color:#c12e89 ;
+    transition-duration: .25s;
+}
+/* navbar */
+.logo-head img{
+    width: 13%;
+    float: left;
+    margin-left:60px ;
+    margin-top: 30px;
+
+}
+.logo-links{
+    float: right;
+    margin-top:40px ;
+    margin-right: 80px;
+
+}
+.logo-links li a{
+    text-decoration: none;
+    margin-left: 30px;
+    color: #E0DCD2;
+    font-size: 20px;
+    font-family: 'Alegreya', serif;
+    font-weight: 400;
+    
+
+}
+.logo-links li a:hover{
+    color: #8e7754;
+    transition-duration: 1s;
+    
+
+}
+.clr{
+    clear: both;
+}
